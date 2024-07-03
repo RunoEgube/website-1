@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Goals</title>
+    <link  rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+   <main>
+    <header>
+        <h1 data-testid="header-title">My Tech goals for the next 2 years</h1>
+    </header>
+    <div class="Picture" data-testid="Picture-div">
+    <section class="profile" data-testid="profile-section">
+        <img src="background-picture1.jpg" alt="Profile Picture" data-testid="slackProfilePicture" >
+        <p data-testid="slackDisplayName"><strong>Slack Name: <span>Dorine</span></strong></p>
+        <p data-testid="slackEmail"><strong>Slack Email: <span>runoegube@gmail.com</span></strong></p>
+    </section>
+    </div>
+        <section class="goals" data-testid="goals-section">
+            <h2 data-testid="goals-title">Goals</h2>
+            <ul data-testid="goals-list">
+                <li data-testid="goal-item">Become proficient in full-stack development.</li>
+                <li data-testid="goal-item">Contribute to open-source projects regularly.</li>
+                <li data-testid="goal-item">Learn and implement AI and machine learning algorithms.</li>
+                <li data-testid="goal-item">Build and deploy scalable web applications.</li>
+            </ul>
+
+            </section>
+   
+    <section class="links" data-testid="links-section">
+        <h2 data-testid="links-title">Useful Links</h2>
+        <ul data-testid="links-list">
+            <li><a href="http://hng.tech/learn" target="_blank" data-testid="hngLink">HNG</a></li>
+            <li><a href="http://keyword.dog/" target="_blank" data-testid="keyword">keyword</a></li>
+            <li><a href="http://scrapeanyweb.site/" target="_blank" data-testid="scrapeanywebLink">scrapeanyweb</a></li>
+        </ul>
+    </section>
+    </div>
+   </main>
+   <footer data-testid="footer">
+    <p>Current Time in UTC: <span id="current-time-utc" data-testid="currentTimeUTC"></span></p>
+    <p>Current Day of the Week: <span id="current-day" data-testid="currentDay"></span></p>
+    <p>&copy; <span id="year"></span> My Tech Goals</p>
+    
+   </footer>
+   <script src="scripts.js"></script>
+   <button id="toggle-theme" data-testid="toggle-theme">SWITCH</button>
+</body>
+</html>
